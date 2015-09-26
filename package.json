@@ -1,6 +1,6 @@
 {
   "name": "coap-cbor-cli",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A CLI for CoAP with CBOR",
   "main": "index.js",
   "scripts": {
@@ -38,5 +38,5 @@
     "cbor": "^0.3.14",
     "coap": "~0.5.0",
     "commander": "~2.0.0"
-   }
+  }
 }
