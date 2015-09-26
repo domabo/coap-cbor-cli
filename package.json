@@ -1,7 +1,7 @@
 {
-  "name": "coap-cli",
+  "name": "coap-cbor-cli",
   "version": "0.3.0",
-  "description": "A CLI for CoAP",
+  "description": "A CLI for CoAP with CBOR",
   "main": "index.js",
   "scripts": {
     "test": "mocha --bail --reporter spec --check-leaks"
@@ -10,11 +10,11 @@
     "test"
   ],
   "bin": {
-    "coap": "index.js"
+    "coap-cbor": "index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcollina/coap-cli.git"
+    "url": "https://github.com/domabo/coap-cbor-cli.git"
   },
   "keywords": [
     "coap",
@@ -25,7 +25,7 @@
     "of",
     "things"
   ],
-  "author": "Matteo Collina <hello@matteocollina.com>",
+  "author": "Domabo",
   "license": "MIT",
   "devDependencies": {
     "pre-commit": "0.0.4",
@@ -35,8 +35,8 @@
     "event-stream": "~3.1.1"
   },
   "dependencies": {
+    "cbor": "^0.3.14",
     "coap": "~0.5.0",
-    "commander": "~2.0.0",
-    "through2": "~0.4.0"
-  }
+    "commander": "~2.0.0"
+   }
 }

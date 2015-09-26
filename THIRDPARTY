@@ -1,9 +1,6 @@
-Forked from coap-cli, original author Matteo Collina
-See THIRDPARTY for original license
+Forked from coap-cli
 
-License for this repository:
-
-Copyright 2015, Domabo 
+Copyright 2013, Matteo Collina (the "Original Author")
 All rights reserved.
 
 MIT +no-false-attribs License
@@ -42,6 +39,3 @@ OTHER DEALINGS IN THE SOFTWARE.
 Except where noted, this license applies to any and all software
 programs and associated documentation files created by the
 Original Author, when distributed with the Software.
-
-
-

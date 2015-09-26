@@ -1,11 +1,8 @@
-CoAP-CLI
+CoAP-CBOR-CLI
 ============================
 
-[![Build
-Status](https://travis-ci.org/mcollina/coap-cli.png)](https://travis-ci.org/mcollina/coap-cli)
-
-__CoAP-CLI__ is a command line interface for CoAP, built on node.js and
-[node-coap](http://github.com/mcollina/node-coap).
+__CoAP-CBOR-CLI__ is a command line interface for CoAP, built on node.js,
+[node-coap](http://github.com/mcollina/node-coap) and [cbor](https://www.npmjs.com/package/cbor)
 
 What is CoAP?
 ----------------------------
@@ -14,12 +11,18 @@ What is CoAP?
 intended to be used in very simple electronics devices that allows them
 to communicate interactively over the Internet. -  Wikipedia
 
+What is CBOR?
+----------------------------
+
+> Concise Binary Object Representation (CBOR) data format (RFC7049)
+
+
 Install
 ----------------------------
 
 Install [node.js](http://nodejs.org), and then from a terminal:
 ```
-npm install coap-cli -g
+npm install coap-cbor-cli -g
 ```
 
 Usage
@@ -40,7 +43,7 @@ Usage
     -h, --help               output usage information
     -V, --version            output the version number
     -o, --observe            Observe the given resource
-    -n, --no-new-line        No new line at the end of the stream
+    -c, --cbor               Encode and decode the packet using CBOR
     -p, --payload <payload>  The payload for POST and PUT requests
     -q, --quiet              Do not print status codes of received packets
 ```
@@ -59,8 +62,10 @@ CTRL-D.
 License
 ----------------------------
 
-Copyright (c) 2013 Matteo Collina
+Copyright (c) 2015 Domabo
+Forked from coap-cli, original author Matteo Collina
 
-node-coap is licensed under an MIT +no-false-attribs license.
+coap-cbor-cli is licensed under an MIT +no-false-attribs license.
+coap-cli is licensed under an MIT +no-false-attribs license.
 All rights not explicitly granted in the MIT license are reserved.
-See the included LICENSE file for more details.
+See the included LICENSE file and THIRDPARTY file for more details.
