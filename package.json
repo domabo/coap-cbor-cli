@@ -10,7 +10,7 @@
     "test"
   ],
   "bin": {
-    "coap-cbor": "index.js"
+    "coap": "index.js"
   },
   "repository": {
     "type": "git",
